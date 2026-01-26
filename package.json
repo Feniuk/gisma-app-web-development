@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "npx live-server src"
+  },
+  "name": "gisma-app-web-development",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "'Feniuk' <'feniuk.mykhailo@gmail.com'>",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,46 @@
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_header {
+  width: 150px;
+  background-color: blue;
+  margin-bottom: 0;
+}
+
+.text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  width: 500px;
+  height: 40px;
+}
+
+.my_para {
+  font-family: monospace;
+  font-style: oblique;
+  font-size: 13px;
+}
+
+.donate_button {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: aliceblue;
+  border: 3px solid aqua;
+  border-radius: 13px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.donate_button:hover {
+  background-color: orange;
+  transform: translateX(-1px);
+}
